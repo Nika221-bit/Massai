@@ -367,7 +367,7 @@ form textarea {
 
 
 @media screen and (max-width: 780px) {
-
+  html,body{overflow-x: hidden;}
   .text1 {
     width: 200px;
     height: auto;}
