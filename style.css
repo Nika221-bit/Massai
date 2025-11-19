@@ -364,7 +364,7 @@ form textarea {
 
 
 
-@media screen and (min-width: 780px) {
+@media screen and (max-width: 780px) {
   .text1 {
     width: 200px;
     height: auto;}
