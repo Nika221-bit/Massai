@@ -1,4 +1,4 @@
-html{overflow: hidden;}
+
 header {
   height: 76px;
   padding: 11px 76px;
@@ -367,7 +367,8 @@ form textarea {
 @media screen and (min-width: 780px) {
   .text1 {
     width: 200px;
-    height: auto;}}
+    height: auto;}
+  html{overflow: hidden;}}
   
 
 
