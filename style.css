@@ -4,6 +4,7 @@ header {
   padding: 11px 76px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   
 }
 
@@ -12,6 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  
 
 }
 
@@ -365,10 +367,20 @@ form textarea {
 
 
 @media screen and (max-width: 780px) {
+  html,body{overflow-x: hidden;}
   .text1 {
     width: 200px;
     height: auto;}
-  html{overflow: hidden;}}
+  .head{flex-direction: column;
+  gap: 20px}
+  header{flex-direction: column;
+  gap: 20px}
+  .left ul{flex-direction: column;
+  gap: 20px}
+  .left li{flex-direction: column;
+  gap: 20px}
+  .div1 img{width: 100%;}
+ }
   
 
 
