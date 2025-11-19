@@ -67,7 +67,6 @@ a {
 
 .text1 {
   font-family: 'Roboto', sans-serif;
-
   font-size: 48px;
   width: 384px;
   height: 407px;
@@ -365,8 +364,11 @@ form textarea {
 
 
 
-
-
+@media screen and (min-width: 780px) {
+  .text1 {
+    width: 200px;
+    height: auto;}}
+  
 
 
 
